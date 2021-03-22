@@ -1,0 +1,30 @@
+body,
+input {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.react-autosuggest__container {
+  .react-autosuggest__suggestions-container {
+    margin-top: 4px;
+    ul {
+      display: inline;
+      padding-inline-start: 0;
+      li {
+        font-size: 15px;
+        font-weight: 500;
+        display: block;
+        padding-left: 4px;
+        span.highlight {
+          background-color: #d661616b;
+        }
+      }
+      li.react-autosuggest__suggestion--highlighted {
+        background-color: hsl(206, 59%, 61%);
+      }
+      li.selected {
+        background-color: hsl(206, 59%, 61%);
+      }
+    }
+  }
+}
